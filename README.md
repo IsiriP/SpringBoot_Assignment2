@@ -91,9 +91,15 @@ database name: taskhub
 
 Quick Test Flow
 1.Create a project
+
 2.Add a developer to it
+
 3.Assign tasks to the developer
+
 4.Update task status and check overdue tasks
+
 5.Try adding more than 5 IN_PROGRESS tasks (should fail)
+
 6.Mark a task as DONE and try updating it (should fail)
+
 7.Check /tasks/top-overdue to see the top 3 developers with late tasks
